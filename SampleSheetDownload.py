@@ -13,7 +13,7 @@ localFileList = [] #list of files in archive folder
 genomicsFolderList = []
 
 AWS_SHARED_CREDENTIALS_FILE = '\\Development\\primary\\projects\\genomicscore\\.aws\\credentials'
-os.chdir("\\Development")
+
 
 #get list of files from archive folder
 def folder2(localFilePath):   
